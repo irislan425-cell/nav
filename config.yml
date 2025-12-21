@@ -46,9 +46,6 @@ content:
         - name: Behance
           description: Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。
           url: https://behance.net/
-        - name: UI中国
-          description: 图形交互与界面设计交流、作品展示、学习平台。
-          url: http://www.ui.cn/
         - name: 站酷
           description: 中国人气设计师互动平台
           url: http://www.zcool.com.cn/
@@ -61,32 +58,12 @@ content:
         - name: 优设
           description: 设计师交流学习平台
           url: http://www.uisdc.com/
-        - name: Producthunt
-          description: 发现新鲜有趣的产品
-          url: https://www.producthunt.com/
         - name: Youtube
           description: 全球最大的学习分享平台
           url: https://www.youtube.com/
         - name: Google
           description: 全球最大的UI学习分享平台
           url: https://www.google.com/
-        - name: Medium
-          description: Read, write and share stories that matter
-          url: https://medium.com/
-    - name: 界面灵感
-      sites:
-        - name: 咕噜素材
-          description: 质量很高的设计素材网站（推荐）
-          url: https://www.gulusucai.com/
-        - name: 设计周刊
-          description: 最新设计资讯（每天更新）
-          url: https://www.shejizhoukan.com/
-        - name: 字体仓库
-          description: 最全的免费商用字体库
-          url: https://www.ziticangku.com/
-        - name: 电鸭社区
-          description: 国内最早的远程工作社区，也是互联网工作者们的聚集地，非常适合设计开发小伙伴关注
-          url: https://eleduck.com/
     - name: 社区资讯
       sites:
         - name: 雷锋网
