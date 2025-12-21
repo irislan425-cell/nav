@@ -138,26 +138,14 @@ content:
           description: 国内使用率较高，以C4D为主的资源网站，包含模型、工程、贴图纹理、插件等
           url: http://www.modown.cn/
         - name: 3D溜溜网
-          description: Photoshop不需要解释
+          description: 提供3d模型，su模型，材质贴图，CAD图纸，效果图等，下载的模型都是以3Dmax文件格式为主
           url: https://www.3d66.com/
         - name: 知末网
-          description: Photoshop不需要解释
+          description: 3D模型，SU模型
           url: https://www.znzmo.com/
-        - name: Illustrator
-          description: 矢量图形和插图。
-          url: https://www.adobe.com/cn/products/illustrator/
-        - name: indesign
-          description: 页面设计、布局和出版。
-          url: http://www.adobe.com/cn/products/indesign.html
-        - name: cinema-4d
-          description: Cinema 4D is the perfect package for all 3D artists who want to achieve breathtaking results fast and hassle-free.
-          url: https://www.maxon.net/en/products/cinema-4d/overview/
-        - name: 3ds-max
-          description: 3D modeling, animation, and rendering software
-          url: https://www.autodesk.com/products/3ds-max/overview
-        - name: Blender
-          description: Blender is the free and open source 3D creation suite.
-          url: https://www.blender.org/
+        - name: Sketchfab
+          description: 全球最大的3D模型、动画资源聚合分享社区，下载免费资源需要登录
+          url: https://sketchfab.com/
     - name: 界面设计
       sites:
         - name: Adobe XD
