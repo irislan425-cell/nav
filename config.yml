@@ -38,7 +38,7 @@ webstack:
 
 content:
   categories:
-    - name: 常用推荐
+    - name: 设计灵感网站
       sites:
         - name: Dribbble
           description: 全球UI设计师作品分享平台。
@@ -157,12 +157,6 @@ content:
         - name: liblib
           description: AI工作流，文生图
           url: https://www.liblib.art/
-        - name: Muse CC
-          description: 无需利用编码即可进行网站设计。
-          url: https://creative.adobe.com/zh-cn/products/download/muse
-        - name: figma
-          description: Design, prototype, and gather feedback all in one place with Figma.
-          url: https://www.figma.com/
     - name: 交互动效
       sites:
         - name: Adobe After Effects CC
