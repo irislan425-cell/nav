@@ -58,12 +58,20 @@ content:
         - name: 优设
           description: 设计师交流学习平台
           url: http://www.uisdc.com/
-        - name: Youtube
-          description: 全球最大的学习分享平台
-          url: https://www.youtube.com/
         - name: Google
           description: 全球最大的UI学习分享平台
           url: https://www.google.com/
+    - name: 在线翻译
+      sites:
+        - name: Google翻译
+          description: 谷歌翻译
+          url: https://translate.google.com/
+        - name: DeepL翻译
+          description: 较准确的一款翻译工具
+          url: https://www.deepl.com/zh/translator
+        - name: 有道翻译
+          description: 网页版有道翻译
+          url: https://fanyi.youdao.com/
     - name: 图标素材
       sites:
         - name: iconfont
@@ -263,34 +271,18 @@ content:
           url: http://viggoz.com/photoshopetiquette/
     - name: 视频教程
       sites:
-        - name: Photoshop Lady
-          description: Your Favourite Photoshop Tutorials in One Place
-          url: http://www.photoshoplady.com/
+        - name: bilibili
+          description: 各种课程分享
+          url: https://www.bilibili.com/
         - name: doyoudo
           description: 创意设计软件学习平台
           url: http://doyoudo.com/
-        - name: 没位道
-          description: WEB UI免费视频公开课
-          url: http://www.c945.com/web-ui-tutorial/
+        - name: Youtube
+          description: 全球最大的学习分享平台
+          url: https://www.youtube.com/
         - name: 慕课网
           description: 程序员的梦工厂（有UI课程）
           url: https://www.imooc.com/
-    - name: 设计文章
-      sites:
-        - name: Web Design Ledger
-          description: Web Design Blog
-          url: https://webdesignledger.com
-    - name: 设计电台
-      sites:
-        - name: UX Coffee
-          description: 《UX Coffee 设计咖》是一档关于用户体验的播客节目。我们邀请来自硅谷和国内的学者和职人来聊聊「产品设计」、「用户体验」和「个人成长」。
-          url: http://uxcoffee.co/
-        - name: Anyway.FM
-          description: 设计杂谈 • UI 设计师 JJ 和 Leon 主播的设计播客
-          url: https://anyway.fm/
-        - name: 异能电台
-          description: 将全宇宙设计师的故事讲给你听。
-          url: https://www.yineng.fm
     - name: 交互设计
       sites:
         - name: Little Big Details
@@ -311,53 +303,3 @@ content:
         - name: UX Ren
           description: 用户体验人的专业社区
           url: http://uxren.cn/
-    - name: UED团队
-      sites:
-        - name: Airbnb Design
-          description: Airbnb Design
-          url: https://airbnb.design
-        - name: Facebook Design
-          description: Facebook Design
-          url: http://facebook.design/
-        - name: Google Design
-          description: Google Design
-          url: https://design.google/
-        - name: eico design
-          description: 数字化咨询与产品专家
-          url: http://eicodesign.com/
-        - name: nice design
-          description: nicedesign奈思设计是领先的用户体验设计与互联网品牌建设公司
-          url: http://www.niceui.cn/
-        - name: 腾讯CDC
-          description: 腾讯CDC关注于互联网视觉设计、交互设计、用户研究、前端开发。
-          url: http://cdc.tencent.com/
-        - name: TGideas
-          description: TGideas隶属于腾讯公司互动娱乐业务系统的专业推广类设计团队
-          url: http://tgideas.qq.com/
-        - name: ISUX
-          description: 腾讯社交用户体验设计部
-          url: https://isux.tencent.com/
-        - name: MXD
-          description: 腾讯MIG无线互联网事业群设计团队
-          url: http://mxd.tencent.com/
-        - name: Aliued
-          description: 阿里巴巴国际UED团队
-          url: http://www.aliued.com/
-        - name: U一点
-          description: 阿里巴巴（中国站）用户体验设计部博客U一点设计 UED团队
-          url: http://www.aliued.cn/
-        - name: 网易uedc
-          description: 网易用户体验设计中心（User Experience Design Center）
-          url: http://uedc.163.com/
-        - name: 百度用户体验中心
-          description: 百度用户体验中心
-          url: http://ued.baidu.com/
-        - name: 京东设计中心
-          description: 京东设计中心
-          url: http://jdc.jd.com/
-        - name: 百度企业产品用户体验中心
-          description: 百度企业产品用户体验中心
-          url: http://eux.baidu.com/
-        - name: 携程设计委员会
-          description: 携程设计委员会-Ctrip Design Committee
-          url: http://ued.ctrip.com/
