@@ -146,17 +146,17 @@ content:
         - name: Sketchfab
           description: 全球最大的3D模型、动画资源聚合分享社区，下载免费资源需要登录
           url: https://sketchfab.com/
-    - name: 界面设计
+    - name: AI作图
       sites:
-        - name: Adobe XD
-          description: Introducing Adobe XD. Design. Prototype. Experience.
-          url: http://www.adobe.com/products/xd.html
-        - name: invisionapp
-          description: Powerful design prototyping tools
-          url: https://www.invisionapp.com/
-        - name: marvelapp
-          description: Simple design, prototyping and collaboration
-          url: https://marvelapp.com/
+        - name: 即梦
+          description: 文生图，图生图，文生视频，图生视频，视频拼接
+          url: https://jimeng.jianying.com/ai-tool/home
+        - name: 豆包
+          description: 文生图，图片像素大小有限
+          url: https://www.doubao.com/chat/create-image
+        - name: liblib
+          description: AI工作流，文生图
+          url: https://www.liblib.art/
         - name: Muse CC
           description: 无需利用编码即可进行网站设计。
           url: https://creative.adobe.com/zh-cn/products/download/muse
