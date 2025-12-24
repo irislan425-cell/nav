@@ -39,28 +39,29 @@ webstack:
 content:
   categories:
     - name: 设计灵感网站
-      sites:
-        - name: Dribbble
-          description: 全球UI设计师作品分享平台。
-          url: https://dribbble.com/
-        - name: Behance
-          description: Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。
-          url: https://behance.net/
-        - name: 站酷
-          description: 中国人气设计师互动平台
-          url: http://www.zcool.com.cn/
-        - name: Pinterest
-          description: 全球美图收藏采集站
-          url: https://www.pinterest.com/
-        - name: 花瓣
-          description: 收集灵感,保存有用的素材
-          url: http://huaban.com/
-        - name: 优设
-          description: 设计师交流学习平台
-          url: http://www.uisdc.com/
-        - name: Google
-          description: 全球最大的UI学习分享平台
-          url: https://www.google.com/
+      subcategories:
+        - name: 国外设计平台
+          sites:
+            - name: Dribbble
+              description: 全球UI设计师作品分享平台。
+              url: https://dribbble.com/
+            - name: Behance
+              description: Adobe旗下的设计师交流平台，来自世界各地的设计师在这里分享自己的作品。
+              url: https://behance.net/
+        - name: 国外设计平台
+          sites:
+            - name: 站酷
+              description: 中国人气设计师互动平台
+              url: http://www.zcool.com.cn/
+            - name: Pinterest
+              description: 全球美图收藏采集站
+              url: https://www.pinterest.com/
+            - name: 花瓣
+              description: 收集灵感,保存有用的素材
+              url: http://huaban.com/
+            - name: 优设
+              description: 设计师交流学习平台
+              url: http://www.uisdc.com/
     - name: 在线翻译
       sites:
         - name: Google翻译
