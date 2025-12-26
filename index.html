@@ -29,6 +29,41 @@
     <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/css/nav.css">
     <script src="https://fastly.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/jquery-1.11.1.min.js"></script>
     <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/css/search.css">
+    <style>
+    /* 折叠面板样式 */
+    .subcategory-panel {
+        margin-bottom: 15px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        border-radius: 4px;
+    }
+    .panel-header {
+        padding: 15px;
+        cursor: pointer;
+        background: #f8f9fa;
+        border-bottom: 1px solid #e5e5e5;
+        font-weight: 600;
+        color: #555;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .panel-header .toggle-icon {
+        transition: transform 0.3s;
+    }
+    .panel-header.collapsed .toggle-icon {
+        transform: rotate(-90deg);
+    }
+    .panel-content {
+        padding: 15px;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
+    .panel-content.collapsed {
+        max-height: 0;
+        padding: 0 15px;
+    }
+    </style>
     <script type="text/javascript">
 function search() {
     $(".search-icon").css("opacity", "1");
@@ -384,6 +419,33 @@ function search() {
             </section>
             <script>search()</script>
             <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="设计灵感网站"></i>设计灵感网站</h4>
+            <!-- 国内设计网站折叠面板 -->
+            <div class="subcategory-panel">
+                <div class="panel-header">
+                    国内设计网站
+                    <span class="toggle-icon">▲</span>
+                </div>
+                <div class="panel-content row">
+                    <!-- 这里的网站卡片和上面一样 -->
+                    <div class="col-sm-3">站酷卡片</div>
+                    <div class="col-sm-3">花瓣卡片</div>
+                    <div class="col-sm-3">优设卡片</div>
+                </div>
+            </div>
+            
+            <!-- 国外设计网站折叠面板 -->
+            <div class="subcategory-panel">
+                <div class="panel-header collapsed">
+                    国外设计网站
+                    <span class="toggle-icon">▼</span>
+                </div>
+                <div class="panel-content row collapsed">
+                    <!-- 这里的网站卡片和上面一样 -->
+                    <div class="col-sm-3">Dribbble卡片</div>
+                    <div class="col-sm-3">Behance卡片</div>
+                    <div class="col-sm-3">Pinterest卡片</div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-sm-3">
                     <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://dribbble.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://dribbble.com/">
@@ -1720,6 +1782,39 @@ function search() {
     <!-- JavaScripts initializations and stuff -->
     <script src="https://fastly.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/xenon-custom.js"></script>
     <script src="https://fastly.jsdelivr.net/gh/x1ah/webstack-assets@master/assets/js/lozad.js"></script>
+    <!-- 折叠面板功能 -->
+    <script>
+    $(document).ready(function() {
+        // 折叠面板功能
+        $('.panel-header').on('click', function() {
+            var $header = $(this);
+            var $content = $header.next('.panel-content');
+            var $toggleIcon = $header.find('.toggle-icon');
+            
+            // 切换状态
+            $header.toggleClass('collapsed');
+            
+            // 动画效果
+            if ($header.hasClass('collapsed')) {
+                $content.css('max-height', '0');
+                $toggleIcon.html('▼');
+            } else {
+                $content.css('max-height', $content.prop('scrollHeight') + 'px');
+                $toggleIcon.html('▲');
+            }
+        });
+        
+        // 初始化面板状态
+        $('.panel-content').each(function() {
+            var $content = $(this);
+            if ($content.hasClass('collapsed')) {
+                $content.css('max-height', '0');
+            } else {
+                $content.css('max-height', $content.prop('scrollHeight') + 'px');
+            }
+        });
+    });
+    </script>
 </body>
 
 </html>
