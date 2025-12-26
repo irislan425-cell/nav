@@ -37,6 +37,7 @@ webstack:
       - zhihu
 
 content:
+  categories:
     - name: 设计灵感网站
       sites:
         - name: Dribbble
