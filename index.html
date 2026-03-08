@@ -37,6 +37,14 @@
         border: 1px solid #e5e5e5;
         border-radius: 4px;
     }
+        .sub-menu{
+  display:none;
+  list-style:none;
+  padding-left:24px;
+}
+.sub-menu.show{
+  display:block;
+}
     .panel-header {
         padding: 15px;
         cursor: pointer;
@@ -283,90 +291,307 @@ function search() {
                     </div>
                 </header>
                 <ul id="main-menu" class="main-menu">
-                    <li>
-                        <a href="#设计灵感网站" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">设计灵感网站</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#在线翻译" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">在线翻译</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#图标素材" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">图标素材</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#设计模板网站" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">设计模板网站</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#字体资源" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">字体资源</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#图库素材" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">图库素材</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#3D素材网站" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">3D素材网站</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#AI作图" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">AI作图</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#交互动效" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">交互动效</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#在线配色" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">在线配色</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#在线工具" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">在线工具</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#设计规范" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">设计规范</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#视频教程" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">视频教程</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#交互设计" class="smooth">
-                            <i class="linecons-star"></i>
-                            <span class="title">交互设计</span>
-                        </a>
-                    </li>
+              <!-- 设计灵感网站 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">设计灵感网站</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内设计网站</a>
+      <ul class="sub-menu"><li><a href="#站酷" class="smooth">站酷</a></li></ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外设计网站</a>
+      <ul class="sub-menu">
+        <li><a href="#Dribbble" class="smooth">Dribbble</a></li>
+        <li><a href="#Behance" class="smooth">Behance</a></li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<!-- 在线翻译 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">在线翻译</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内翻译</a>
+      <ul class="sub-menu"><li><a href="#有道翻译" class="smooth">有道翻译</a></li></ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外翻译</a>
+      <ul class="sub-menu">
+        <li><a href="#Google翻译" class="smooth">Google翻译</a></li>
+        <li><a href="#DeepL翻译" class="smooth">DeepL翻译</a></li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<!-- 图标素材 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">图标素材</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内图标</a>
+      <ul class="sub-menu"><li><a href="#iconfont" class="smooth">iconfont</a></li></ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外图标</a>
+      <ul class="sub-menu"><li><a href="#iconmonstr" class="smooth">iconmonstr</a></li></ul>
+    </li>
+  </ul>
+</li>
+
+<!-- 设计模板网站 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">设计模板网站</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内模板</a>
+      <ul class="sub-menu">
+        <li><a href="#千图网" class="smooth">千图网</a></li>
+        <li><a href="#千库网" class="smooth">千库网</a></li>
+        <li><a href="#我图网" class="smooth">我图网</a></li>
+        <li><a href="#90设计" class="smooth">90设计</a></li>
+        <li><a href="#昵图网" class="smooth">昵图网</a></li>
+      </ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外模板</a>
+      <ul class="sub-menu"></ul>
+    </li>
+  </ul>
+</li>
+
+<!-- 字体资源 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">字体资源</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内字体</a>
+      <ul class="sub-menu"><li><a href="#识字体网" class="smooth">识字体网</a></li></ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外字体</a>
+      <ul class="sub-menu">
+        <li><a href="#Google Font" class="smooth">Google Font</a></li>
+        <li><a href="#FontM" class="smooth">FontM</a></li>
+        <li><a href="#Da Font" class="smooth">Da Font</a></li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<!-- 图库素材 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">图库素材</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内图库</a>
+      <ul class="sub-menu"></ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外图库</a>
+      <ul class="sub-menu">
+        <li><a href="#freepik" class="smooth">freepik</a></li>
+        <li><a href="#Unsplash" class="smooth">Unsplash</a></li>
+        <li><a href="#visualhunt" class="smooth">visualhunt</a></li>
+        <li><a href="#pixabay" class="smooth">pixabay</a></li>
+        <li><a href="#StockSnap" class="smooth">StockSnap</a></li>
+        <li><a href="#freenaturestock" class="smooth">freenaturestock</a></li>
+        <li><a href="#negativespace" class="smooth">negativespace</a></li>
+        <li><a href="#lifeofpix" class="smooth">lifeofpix</a></li>
+        <li><a href="#skitterphoto" class="smooth">skitterphoto</a></li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<!-- 3D素材网站 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">3D素材网站</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内3D</a>
+      <ul class="sub-menu">
+        <li><a href="#魔顿网" class="smooth">魔顿网</a></li>
+        <li><a href="#3D溜溜网" class="smooth">3D溜溜网</a></li>
+        <li><a href="#知未网" class="smooth">知未网</a></li>
+      </ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外3D</a>
+      <ul class="sub-menu"><li><a href="#Sketchfab" class="smooth">Sketchfab</a></li></ul>
+    </li>
+  </ul>
+</li>
+
+<!-- AI作图 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">AI作图</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内AI</a>
+      <ul class="sub-menu">
+        <li><a href="#即梦" class="smooth">即梦</a></li>
+        <li><a href="#豆包" class="smooth">豆包</a></li>
+        <li><a href="#liblib" class="smooth">liblib</a></li>
+      </ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外AI</a>
+      <ul class="sub-menu"></ul>
+    </li>
+  </ul>
+</li>
+
+<!-- 交互动效 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">交互动效</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内动效</a>
+      <ul class="sub-menu"></ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外动效</a>
+      <ul class="sub-menu">
+        <li><a href="#Adobe After Effects CC" class="smooth">Adobe After Effects CC</a></li>
+        <li><a href="#principle" class="smooth">principle</a></li>
+        <li><a href="#flinto" class="smooth">flinto</a></li>
+        <li><a href="#framer" class="smooth">framer</a></li>
+        <li><a href="#ProtoPie" class="smooth">ProtoPie</a></li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<!-- 在线配色 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">在线配色</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内配色</a>
+      <ul class="sub-menu"></ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外配色</a>
+      <ul class="sub-menu">
+        <li><a href="#khroma" class="smooth">khroma</a></li>
+        <li><a href="#uigradients" class="smooth">uigradients</a></li>
+        <li><a href="#gradients" class="smooth">gradients</a></li>
+        <li><a href="#Coolest" class="smooth">Coolest</a></li>
+        <li><a href="#webgradients" class="smooth">webgradients</a></li>
+        <li><a href="#grabient" class="smooth">grabient</a></li>
+        <li><a href="#thedayscolor" class="smooth">thedayscolor</a></li>
+        <li><a href="#flatuicolors" class="smooth">flatuicolors</a></li>
+        <li><a href="#coolors" class="smooth">coolors</a></li>
+        <li><a href="#colorhunt" class="smooth">colorhunt</a></li>
+        <li><a href="#Adobe Color CC" class="smooth">Adobe Color CC</a></li>
+        <li><a href="#flatuicolorpicker" class="smooth">flatuicolorpicker</a></li>
+        <li><a href="#trianglify" class="smooth">trianglify</a></li>
+        <li><a href="#klart" class="smooth">klart</a></li>
+        <li><a href="#vanschneider" class="smooth">vanschneider</a></li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<!-- 在线工具 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">在线工具</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内工具</a>
+      <ul class="sub-menu"><li><a href="#稿定抠图" class="smooth">稿定抠图</a></li></ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外工具</a>
+      <ul class="sub-menu">
+        <li><a href="#tinypng" class="smooth">tinypng</a></li>
+        <li><a href="#goqr" class="smooth">goqr</a></li>
+        <li><a href="#ezgif" class="smooth">ezgif</a></li>
+        <li><a href="#Android 9 patch" class="smooth">Android 9 patch</a></li>
+        <li><a href="#screen sizes" class="smooth">screen sizes</a></li>
+        <li><a href="#svgomg" class="smooth">svgomg</a></li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<!-- 设计规范 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">设计规范</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内规范</a>
+      <ul class="sub-menu"><li><a href="#Photoshop Etiquette" class="smooth">Photoshop Etiquette</a></li></ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外规范</a>
+      <ul class="sub-menu">
+        <li><a href="#Design Guidelines" class="smooth">Design Guidelines</a></li>
+        <li><a href="#Awesome design systems" class="smooth">Awesome design systems</a></li>
+        <li><a href="#Material Design" class="smooth">Material Design</a></li>
+        <li><a href="#Human Interface Guidelines" class="smooth">Human Interface Guidelines</a></li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
+<!-- 视频教程 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">视频教程</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内教程</a>
+      <ul class="sub-menu">
+        <li><a href="#bilibili" class="smooth">bilibili</a></li>
+        <li><a href="#doyoudo" class="smooth">doyoudo</a></li>
+        <li><a href="#慕课网" class="smooth">慕课网</a></li>
+      </ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外教程</a>
+      <ul class="sub-menu"><li><a href="#Youtube" class="smooth">Youtube</a></li></ul>
+    </li>
+  </ul>
+</li>
+
+<!-- 交互设计 -->
+<li>
+  <a href="javascript:;" class="smooth" onclick="toggle(this)">
+    <i class="linecons-star"></i>
+    <span class="title">交互设计</span>
+  </a>
+  <ul class="sub-menu">
+    <li><a href="javascript:;" onclick="toggle(this)">国内交互</a>
+      <ul class="sub-menu"><li><a href="#UX Ren" class="smooth">UX Ren</a></li></ul>
+    </li>
+    <li><a href="javascript:;" onclick="toggle(this)">国外交互</a>
+      <ul class="sub-menu">
+        <li><a href="#Little Big Details" class="smooth">Little Big Details</a></li>
+        <li><a href="#Smashing Magazine" class="smooth">Smashing Magazine</a></li>
+        <li><a href="#nngroup" class="smooth">nngroup</a></li>
+        <li><a href="#Boxes and Arrows" class="smooth">Boxes and Arrows</a></li>
+        <li><a href="#UX Design Weekly" class="smooth">UX Design Weekly</a></li>
+      </ul>
+    </li>
+  </ul>
+</li>
                 </ul>
             </div>
         </div>
@@ -1809,6 +2034,12 @@ function search() {
         });
     });
     </script>
+    <script>
+function toggle(el){
+  let sub=el.nextElementSibling;
+  if(sub) sub.classList.toggle('show');
+}
+</script>
 </body>
 
 </html>
