@@ -37,19 +37,21 @@
         border: 1px solid #e5e5e5;
         border-radius: 4px;
     }
-        /* 子菜单默认收起 */
-.sub-menu {
+/* 二级/三级菜单 默认隐藏 */
+.main-menu .sub-menu {
   display: none;
   list-style: none;
   padding-left: 20px;
+  margin: 5px 0;
 }
-/* 展开时显示 */
-.sub-menu.show {
+/* 展开显示 */
+.main-menu .sub-menu.show {
   display: block;
 }
-/* 鼠标小手 */
-.menu-toggle {
+/* 点击小手 */
+.main-menu li a {
   cursor: pointer;
+  text-decoration: none;
 }
     .panel-header {
         padding: 15px;
@@ -306,15 +308,17 @@ function toggleMenu(el) {
                             <i class="linecons-star"></i>
                             <span class="title">设计灵感网站</span>
                         </a>
-                        <ul class="sub-menu">
-      <li><a href="https://dribbble.com" target="_blank">Dribbble</a></li>
-      <li><a href="https://www.pinterest.com" target="_blank">Pinterest</a></li>
-      <li><a href="https://www.zcool.com.cn/" target="_blank">站酷</a></li>                     
-                            
-    </ul>
-                        
+    <ul class="sub-menu">
+      <li>
+        <a href="#设计灵感网站:;" onclick="smooth">国内网站</a>
+                         <ul class="sub-menu">
+          <li><a href="https://www.zcool.com.cn/" target="_blank">站酷</a></li>
+
+        </ul>
+          
                     </li>
                     <li>
+                        
                         <a href="#在线翻译" class="smooth">
                             <i class="linecons-star"></i>
                             <span class="title">在线翻译</span>
@@ -326,6 +330,16 @@ function toggleMenu(el) {
     </ul>
                     </li>
                     <li>
+                        <a href="#设计灵感网站:;" onclick="smooth">国外网站</a>
+        <!-- 三级（具体网站） -->
+        <ul class="sub-menu">
+          <li><a href="https://dribbble.com" target="_blank">Dribbble</a></li>
+          <li><a href="https://www.pinterest.com/" target="_blank">Pinterest</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
                         <a href="#图标素材" class="smooth">
                             <i class="linecons-star"></i>
                             <span class="title">图标素材</span>
