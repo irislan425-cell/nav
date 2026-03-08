@@ -37,6 +37,20 @@
         border: 1px solid #e5e5e5;
         border-radius: 4px;
     }
+        /* 子菜单默认收起 */
+.sub-menu {
+  display: none;
+  list-style: none;
+  padding-left: 20px;
+}
+/* 展开时显示 */
+.sub-menu.show {
+  display: block;
+}
+/* 鼠标小手 */
+.menu-toggle {
+  cursor: pointer;
+}
     .panel-header {
         padding: 15px;
         cursor: pointer;
@@ -255,7 +269,12 @@ function search() {
     <meta name="twitter:description" content="irislan425-cell's navigation site">
     <meta name="twitter:image" content="">
 </head>
-
+<script>
+function toggleMenu(el) {
+  const sub = el.nextElementSibling;
+  sub.classList.toggle('show');
+}
+</script>
 <body class="page-body">
     <!-- skin-white -->
     <div class="page-container">
@@ -287,24 +306,41 @@ function search() {
                             <i class="linecons-star"></i>
                             <span class="title">设计灵感网站</span>
                         </a>
+                        <ul class="sub-menu">
+      <li><a href="https://dribbble.com" target="_blank">Dribbble</a></li>
+      <li><a href="https://www.pinterest.com" target="_blank">Pinterest</a></li>
+      <li><a href="https://www.zcool.com.cn/" target="_blank">站酷</a></li>                     
+                            
+    </ul>
+                        
                     </li>
                     <li>
                         <a href="#在线翻译" class="smooth">
                             <i class="linecons-star"></i>
                             <span class="title">在线翻译</span>
                         </a>
+                        <ul class="sub-menu">
+      <li><a href="https://translate.google.com" target="_blank">Google翻译</a></li>
+      <li><a href="https://fanyi.baidu.com" target="_blank">百度翻译</a></li>
+        <li><a href="https://fanyi.youdao.com/#/AITranslate" target="_blank">有道翻译</a></li>
+    </ul>
                     </li>
                     <li>
                         <a href="#图标素材" class="smooth">
                             <i class="linecons-star"></i>
                             <span class="title">图标素材</span>
                         </a>
+                        <ul class="sub-menu">
+      <li><a href="https://www.iconfont.cn/" target="_blank">iconfont</a></li>
+      <li><a href="https://iconmonstr.com/" target="_blank">iconmonstr</a></li>
+    </ul>
                     </li>
                     <li>
                         <a href="#设计模板网站" class="smooth">
                             <i class="linecons-star"></i>
                             <span class="title">设计模板网站</span>
                         </a>
+                        
                     </li>
                     <li>
                         <a href="#字体资源" class="smooth">
